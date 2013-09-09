@@ -1,2 +1,4 @@
 {"ts":1378767459777,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1378767523909,"patch":[[{"diffs":[[1,"<!doctype html>\n    <html lang=\"sv\">\n        <head>\n            <meta charset=\"utf-8\" />\n        </head>\n    </html>"]],"start1":0,"start2":0,"length1":0,"length2":116}]],"length":116,"saved":false}
+{"ts":1378767995127,"patch":[[{"diffs":[[0,"f-8\""],[-1," "],[0,"/"],[1,">\n            <title>Eric Jennerstrand</title"],[0,">\n  "]],"start1":81,"start2":81,"length1":10,"length2":54}]],"length":160,"saved":false}
+{"ts":1378768172127,"patch":[[{"diffs":[[0,"    </head>\n"],[1,"        <body></body>\n"],[0,"    </html>"]],"start1":137,"start2":137,"length1":23,"length2":45}]],"length":182,"saved":false}
