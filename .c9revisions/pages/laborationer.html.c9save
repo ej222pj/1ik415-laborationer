@@ -54,3 +54,4 @@
 {"ts":1378818390212,"patch":[[{"diffs":[[0,"      <t"],[-1,"d"],[1,"h"],[0,">Laborat"]],"start1":988,"start2":988,"length1":17,"length2":17}]],"length":3630,"saved":false}
 {"ts":1378818548362,"patch":[[{"diffs":[[0,"li>\n"],[-1,"                \n"],[0,"    "]],"start1":3572,"start2":3572,"length1":25,"length2":8}]],"length":3613,"saved":false}
 {"ts":1378818576623,"patch":[[{"diffs":[[0,"8 Tabeller ["],[-1," "],[1,"✓"],[0,"]</li>\n     "]],"start1":3466,"start2":3466,"length1":25,"length2":25}]],"length":3613,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378823427053,"patch":[[{"diffs":[[0,": .."],[-1,"./."],[1,"/"],[0,"../i"]],"start1":3031,"start2":3031,"length1":11,"length2":9}]],"length":3611,"saved":false}
