@@ -1,0 +1,33 @@
+#container
+{
+   width:980px;
+   height: auto;
+   border: 1px solid black;
+   margin: auto;
+}
+#header
+{
+    width: 978px;
+    border: 1px solid black;
+}
+#navigation
+{
+    width: 148px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 10px;
+}
+#content
+{
+    width: 828px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 10px;
+}
+#footer
+{
+    width: 978px;
+    height: 50px;
+    border: 1px solid black;
+    clear: both;
+}
