@@ -47,4 +47,26 @@ body
 {
     background-color: #3FACA1;
     margin: 3px;
+    margin-left: -20px;
 }
+
+.navColor:hover
+{
+    background-color: #D2ECE5;
+}
+.activeLink
+{
+    background-color: #D2ECE5;
+    font-weight: bold;
+}
+/*Gör så att länkarna går att klicka på! */
+.linkClick{}
+ul.noDot
+{
+    list-style-type:none;
+}
+
+
+
+
+
