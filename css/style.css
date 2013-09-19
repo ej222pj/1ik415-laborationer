@@ -2,6 +2,7 @@ body
 {    
 
 }
+
 #container
 {
     
@@ -15,33 +16,55 @@ body
 }
 #header
 {
-    width: 973px;
-    background-color: #D2ECE5;
-    padding-left: 5px;
+    width: 980px;
+    background-image: url("pics/background.jpg");
 }
 #navigation
 {
     width: 148px;
     float: left;
     margin-top: 10px;
+    margin-left: 5px;
     background-color: #66D8E2;
 }
 #content
 {
-    width: 823px;
+    width: 813px;
     float: left;
     margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
     background-color: #FFF;
     padding-left: 5px;
 }
 #footer
 {
-    width: 973px;
+    text-align: center;
+    width: 980px;
     height: 50px;
     clear: both;
     background-color: #D2ECE5;
-    padding-left: 5px;
+    
 }
+/* Divvarna till blogginläggen.  */
+.bloggPost
+{
+    width: auto;
+    height: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: #FF0000;
+}
+.videoBloggPost
+{
+    background-image: url("pics/images.jpg");
+    width: auto;
+    height: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: #FF0000;
+}
+/* Gör så att länkara har sitt utseende och visar den som är aktiv */
 .navColor
 {
     background-color: #3FACA1;
@@ -50,7 +73,6 @@ body
     margin-left: -30px;
     font-size: 20px;
 }
-
 .navColor:hover
 {
     background-color: #D2ECE5;
@@ -66,6 +88,7 @@ body
 }
 /*Gör så att länkarna går att klicka på! */
 .linkClick{}
+/* Plockar bort prickar och siffror vid listor som jag inte ville ha */
 ul.noDot
 {
     list-style-type:none;
@@ -74,6 +97,7 @@ ol.noNum
 {
     list-style-type:none;
 }
+/* Ger all text på hemsidan en annan Font än standard fonten. */
 p,ol, ul, table
 {
     font-family: Arial,Helvetica,sans-serif;
@@ -83,9 +107,17 @@ a.bigger
     font-family: Arial,Helvetica,sans-serif;
     font-size:20px;
 }
+/* Ger de besökta länkarna samma färg som standard färgen. */
 a:visited
 {
     color: #2f05FF;
+}
+h1.headPic
+{
+    background-image: url("pics/mailpic.jpg");
+    background-repeat:no-repeat;
+    background-position: left center;
+    padding-left: 36px;
 }
 
 
