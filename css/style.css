@@ -64,7 +64,12 @@ body
     border-style: solid;
     border-color: #FF0000;
 }
-/* Gör så att länkara har sitt utseende och visar den som är aktiv */
+/* Clearar float */
+.clear
+{
+    clear: both;
+}
+/* Gör så att menylänkara har sitt utseende och visar den som är aktiv */
 .navColor
 {
     background-color: #3FACA1;
@@ -112,12 +117,33 @@ a:visited
 {
     color: #2f05FF;
 }
+/* Lägger in bilden i headern på kontaktsidan */
 h1.headPic
 {
     background-image: url("pics/mailpic.jpg");
     background-repeat:no-repeat;
     background-position: left center;
     padding-left: 36px;
+}
+h3.bloggStyle
+{
+    width: auto;
+    height: auto;
+    border-bottom: solid 3px; 
+    border-color: #FF0000;
+}
+.right
+{
+    float: right;
+}
+.left
+{
+    float: left;
+}
+.indexpic
+{
+    width: 250px;
+    height: 350px;
 }
 
 
