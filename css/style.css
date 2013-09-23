@@ -1,16 +1,17 @@
+/* Body är med om jag skulle behöva den senare
 body
 {    
 
 }
-
+*/
 #container
 {
     
-   width:980px;
+   width: 980px;
    height: auto;
    border: 1px;
    border-style: solid;
-   border-color: #FF0000;
+   border-color: #000;
    margin: auto;
    background-color: #DBFCFF;
 }
@@ -35,16 +36,22 @@ body
     margin-left: 5px;
     margin-bottom: 5px;
     background-color: #FFF;
-    padding-left: 5px;
+    border: 1px;
+   border-style: solid;
+   border-color: #000;
 }
 #footer
 {
-    text-align: center;
-    width: 980px;
+    padding-top: 1px;
     height: 50px;
+    text-align: center;
     clear: both;
     background-color: #D2ECE5;
-    
+}
+/* Lägger labbarna sida vid sida */
+.labbPos
+{
+    float: left;
 }
 /* Divvarna till blogginläggen.  */
 .bloggPost
@@ -53,7 +60,7 @@ body
     height: auto;
     border: 1px;
     border-style: solid;
-    border-color: #FF0000;
+    border-color: #000;
 }
 .videoBloggPost
 {
@@ -62,7 +69,7 @@ body
     height: auto;
     border: 1px;
     border-style: solid;
-    border-color: #FF0000;
+    border-color: #000;
 }
 /* Clearar float */
 .clear
@@ -91,23 +98,38 @@ body
     background-color: #D2ECE5;
     font-weight: bold;
 }
-/*Gör så att länkarna går att klicka på! */
-.linkClick{}
 /* Plockar bort prickar och siffror vid listor som jag inte ville ha */
-ul.noDot
+.noDot
 {
-    list-style-type:none;
+    list-style-type: none;
 }
-ol.noNum
+.noNum
 {
-    list-style-type:none;
+    list-style-type: none;
+}
+table
+{
+    background-color: #DBFCFF;
+    border-color: #000;
+}
+thead
+{
+    background-image: url("pics/background.jpg");
+}
+tbody
+{
+    background-color: #FFF;
+}
+tfoot
+{
+    background-color: #D2ECE5;
 }
 /* Ger all text på hemsidan en annan Font än standard fonten. */
 p,ol, ul, table
 {
     font-family: Arial,Helvetica,sans-serif;
 }
-a.bigger
+.bigger
 {
     font-family: Arial,Helvetica,sans-serif;
     font-size:20px;
@@ -118,14 +140,14 @@ a:visited
     color: #2f05FF;
 }
 /* Lägger in bilden i headern på kontaktsidan */
-h1.headPic
+.headPic
 {
     background-image: url("pics/mailpic.jpg");
     background-repeat:no-repeat;
     background-position: left center;
     padding-left: 36px;
 }
-h3.bloggStyle
+.bloggStyle
 {
     width: auto;
     height: auto;
