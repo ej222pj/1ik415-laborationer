@@ -37,8 +37,8 @@ body
     margin-bottom: 5px;
     background-color: #FFF;
     border: 1px;
-   border-style: solid;
-   border-color: #000;
+    border-style: solid;
+    border-color: #000;
 }
 #footer
 {
@@ -107,6 +107,7 @@ body
 {
     list-style-type: none;
 }
+/* Stylar Labb Tabel */
 table
 {
     background-color: #DBFCFF;
@@ -147,12 +148,18 @@ a:visited
     background-position: left center;
     padding-left: 36px;
 }
-.bloggStyle
+.bloggHeader
 {
     width: auto;
     height: auto;
     border-bottom: solid 3px; 
-    border-color: #FF0000;
+    border-color: #66D8E2;
+}
+.bloggHeader:before
+{
+    content: url(pics/square.jpg);
+    padding-right: 2px;
+    padding-left: 2px;
 }
 .right
 {
@@ -167,6 +174,123 @@ a:visited
     width: 250px;
     height: 350px;
 }
-
+/*Divvar för formuläret */
+form
+{
+    padding-top: 5px;
+    background-color: #DBFCFF;
+}
+fieldset
+{
+    background-color: #FFF;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid;
+}
+.formTextArea
+{
+    padding-left: 3px;
+    float: left;
+}
+.formText
+{
+    float: left;
+    margin-right: 58px;
+}
+.formTitleFields
+{
+    border: 3px;
+    border-style: inset;
+    border-color: #999999;
+    background-color: #4D4D4D;
+    color: #FFF;
+}
+.formScrollFields:focus, .formTitleFields:focus, .formTextFields:focus, .formScrollField:focus
+{
+    border-color: #FFF;
+    box-shadow: 0 0 10px #6EA2DE;
+}
+.formTextFields
+{
+    background-color: #4D4D4D;
+    color: #FFF;
+}
+.formScrollFields
+{
+    border: 3px;
+    border-style: inset;
+    border-color: #999999;
+    background-color: #4D4D4D;
+    color: #FFF;
+}
+.formScrollField
+{
+    border: 3px;
+    border-style: inset;
+    border-color: #999999;
+    background-color: #828282;
+    color: #FFF;
+}
+textarea
+{
+    border: 3px;
+    border-style: inset;
+    border-color: #999999;
+    max-width: 650px;
+    max-height: 300px;
+}
+.formTitleArea
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+}
+.formTitle
+{
+    float: left;
+    margin-right: 44px;
+}
+.radioButton
+{
+    margin-left: 13px;
+}
+.buttonPlace
+{
+    margin-left: 160px;
+}
+/*Hittade en "buttongenrator" som jag tog en knapp ifrån */
+.formButton 
+{
+	box-shadow:inset 0 1px 0 0 #bbdaf7;
+	background-color:#378de5;
+	border-top-left-radius:39px;
+	border-top-right-radius:0;
+	border-bottom-right-radius:39px;
+	border-bottom-left-radius:0;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0 #528ecc;
+}
+.formButton:hover 
+{
+	background-color:#79bbff;
+}
+.formButton:active 
+{
+	position:relative;
+	top:1px;
+}
 
 

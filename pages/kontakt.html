@@ -19,23 +19,31 @@
             </ul>
         </div>
         <div id="content">
-        <form id="formulär" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
         <fieldset>
-            <legend>Fråga/Förslag</legend>
-            <select name="Type">
-                <option value="Fråga">Fråga</option>
-                <option value="Förslag">Förslag</option>
+        <div>
+            <div class="left"><legend>Fråga/Förslag:</legend></div>
+            <select class="formScrollFields" name="Type">
+                <option class="formScrollField" value="Fråga">Fråga</option>
+                <option class="formScrollField" value="Förslag">Förslag</option>
             </select>
-    <br/>   Rubrik: <input type="text" name="Rubrik">
-    <br/>   Text: <textarea name="Text" cols="15" rows="3"></textarea> <br />
-                    
+            </div>
+            <div class="formTitleArea">
+               <div class="formTitle">Rubrik:</div> <input class="formTitleFields" type="text" name="Rubrik">
+            </div>
+            <div class="formTextArea">
+               <div class="formText">Text:</div> <textarea class="formTextFields" name="Text" cols="16" rows="3"></textarea>
+            </div>
+            
         </fieldset>
         <fieldset>
-            <legend>Mina uppgifter</legend>
-                Kontakta mig via Mail<input type="radio" name="Kontakt" value="Mail">
-        <br/>   Kontakta mig via Telefon <input type="radio" name="Kontakt" value="Telefon">
+            <div class="left"><legend>Kontakta mig via: </legend></div>
+                <div class="left radioButton">Mail<input type="radio" name="Kontakt" value="Mail"></div>
+                <div class="left radioButton">Telefon<input type="radio" name="Kontakt" value="Telefon"></div>
         </fieldset>
-        <input type="submit" value="Skicka">
+        <div class="buttonPlace">
+        <input class="formButton" type="submit" value="Skicka">
+        </div>
         </form>
         </div>
             <div id="footer">
