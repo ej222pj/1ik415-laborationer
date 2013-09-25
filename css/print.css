@@ -1,0 +1,46 @@
+img, video, h1, h2, #header, #navigation, #footer, .bloggHeader:before
+{
+    display: none;
+}
+#content
+{
+    width: 100%;
+}
+a:link, a:visited
+{
+    font-size: 20px;
+    color: #781351;
+}
+a.Bigger:after
+{ 
+    content:" [" attr(href) "] "; 
+}
+p, tabl
+p, table ol, ul, li
+{
+    font-size: 20px;
+}
+.formButton
+{
+    box-shadow:inset 0 0 0 0 #FFF;
+	background-color:#FFF;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+	border-bottom-left-radius:0;
+	text-indent:0;
+	display:inline-block;
+	color:#000;
+	font-family:Arial;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	text-align:center;
+
+}
+fieldset, textarea, #container, #content, .bloggPost, .videoBloggPost, .bloggHeader, .formTitleFields, .formScrollFields, .formScrollField 
+{
+    border: none;
+    border-style: none;
+    border-color: #FFF;
+}
