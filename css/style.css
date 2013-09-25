@@ -178,11 +178,11 @@ a:visited
 form
 {
     padding-top: 5px;
-    background-color: #DBFCFF;
+    background-color: #D2ECE5;
 }
 fieldset
 {
-    background-color: #FFF;
+    background-color: #DBFCFF;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
@@ -292,5 +292,6 @@ textarea
 	position:relative;
 	top:1px;
 }
+
 
 
