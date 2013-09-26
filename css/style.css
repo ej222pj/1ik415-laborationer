@@ -73,12 +73,17 @@ body
 /* Gör så att menylänkara har sitt utseende och visar den som är aktiv */
 .navColor
 {
-    background-color: #3FACA1;
     padding: 8px;
+    padding-left: 24px;
     margin: 3px;
     margin-left: -30px;
     font-size: 20px;
 }
+.house{background: url(pics/sprite.png) 0 10px; background-repeat: no-repeat;}
+.hammer{background: url(pics/sprite.png) 0 -86px; background-repeat: no-repeat;}
+.pic{background: url(pics/sprite.png) 0 -184px; background-repeat: no-repeat;}
+.mail{background: url(pics/sprite.png) 0 -280px; background-repeat: no-repeat;}
+
 .navColor:hover
 {
     background-color: #D2ECE5;
@@ -86,6 +91,7 @@ body
 .activeLink
 {
     padding: 8px;
+    padding-left: 24px;
     margin: 3px;
     margin-left: -30px;
     font-size: 20px;
