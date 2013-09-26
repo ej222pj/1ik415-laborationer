@@ -15,7 +15,6 @@ a.Bigger:after
 { 
     content:" [" attr(href) "] "; 
 }
-p, tabl
 p, table ol, ul, li
 {
     font-size: 20px;
