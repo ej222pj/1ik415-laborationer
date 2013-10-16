@@ -1,10 +1,10 @@
 <!doctype html>
     <html lang="sv">
         <head>
-        <link rel="apple-touch-icon" href="pics/apple57x57.png"/>
-        <link rel="apple-touch-icon" sizes="72x72" href="pics/apple57x57.png"/>
-        <link rel="apple-touch-icon" sizes="114x114" href="pics/apple57x57.png"/>
-        <link rel="apple-touch-icon" sizes="144x144" href="pics/apple57x57.png"/>
+            <link rel="apple-touch-icon" href="pics/apple57x57.png"/>
+            <link rel="apple-touch-icon" sizes="72x72" href="pics/apple57x57.png"/>
+            <link rel="apple-touch-icon" sizes="114x114" href="pics/apple57x57.png"/>
+            <link rel="apple-touch-icon" sizes="144x144" href="pics/apple57x57.png"/>
             <link rel="shortcut icon" href="pages/favicon.ico" type="image/x-icon"/>
             <link rel="stylesheet" href="css/style.css" media="screen and (min-width:481px)" />
             <link rel="stylesheet" href="css/styleSmall.css" media="only screen and (max-width:480px)" />
@@ -15,25 +15,24 @@
         </head>
         <body>
         <div id="container">
-            <div id="header">
+            <header>
             <!-- Huvudrubruk -->
             <h1>Eric Jennerstrands Blogg!</h1>
              <!-- Underrubrik -->
                 <h2>1ik415 Kursblogg</h2>
                 <img id="loggapic" src="pics/Logga.png" alt="En loggotyp som föreställer ett snabel e">
-            </div>
-            <div id="navigation">
-                
+            </header>
+            <nav>
                 <ul class="noDot">
                     <li><a href="https://c9.io/ej222pj/1ik415-laborationer/workspace/index.html"><div class="activeLink navColorStart">Start</div></a></li>
                     <li><a href="https://c9.io/ej222pj/1ik415-laborationer/workspace/pages/laborationer.html"><div class="navColorLab">Laborationer</div></a></li>
                     <li><a href="https://c9.io/ej222pj/1ik415-laborationer/workspace/pages/presentation.html"><div class="navColorPres">Presentation</div></a></li>
                     <li><a href="https://c9.io/ej222pj/1ik415-laborationer/workspace/pages/kontakt.html"><div class="navColorKontakt">Kontakt</div></a></li>
                 </ul>
-                
-            </div>
-            <div id="content">
-            <div class="bloggPost">
+            </nav>
+            
+            <main>
+            <article>
                     <!--Blogginläggsrubrik -->
                     <h3 class="bloggHeader">Copycat!</h3>
                     <p>Nu har vi kommit fram till uppgift 3 på laborationerna. Och på uppgift 3.3 skulle vi försöka kopiera en hemsida. 
@@ -41,8 +40,8 @@
                        Men jag tyckte inte det var värt att lägga ner mer tid nu. Jag kanske snyggar till den lite till om jag får tid över.
                        Om du vill se hemsidan kan du <a href="https://c9.io/ej222pj/uppgift-3-3/workspace/index.html" class="Bigger">Trycka här!</a>
                     </p>
-            </div>
-                <div class="bloggPost">
+            </article>
+                <article>
                     <!--Blogginläggsrubrik -->
                     <h3 class="bloggHeader">Lorem Ipsum</h3>
                     <img class="indexpic right" src="css/pics/olandsbron.jpg" alt="Ölandsbron under solnedgång">
@@ -67,8 +66,8 @@
                     Nam vitae bibendum nulla. Curabitur eu tellus nunc. Phasellus consequat ultrices sagittis. Cras vulputate libero sed nulla vulputate, sit amet accumsan eros interdum. Aenean dapibus urna tellus, sit amet euismod sem porta nec. 
                     Donec vehicula blandit tortor. Vestibulum a ligula convallis, semper purus sed, vulputate nunc.</p>
                     <p class="right">Eric J 2013-09-20</p><div class="clear"></div>
-                </div>
-                <div class="videoBloggPost">
+                </article>
+                <article class="videoBloggPost">
                     <!--Blogginläggsrubrik -->
                     <h3 id="videoTaggen" class="bloggHeader">Video-taggen</h3>
                     <video class="left indexpic" controls>
@@ -76,26 +75,48 @@
                       Your browser does not support the video tag.
                     </video><div class="clear"></div>
                     <p class="right">Eric J 2013-09-12</p><div class="clear"></div>
-                </div> 
-                <div class="bloggPost">
+                </article> 
+                <article>
                     <!-- Blogginläggsrubrik -->
                     <h3 class=bloggHeader>Vectorbild</h3>
                     <p>För uppgift 1.6 skulle jag göra en bild med vectorgrafik och lägga ut på bloggen.<br/>
                     Jag har ingen fantasi när det handlar om att design och är väldigt dålig på design så jag viste inte vad jag skulle rita.</p>
                         <img id="vectorpic" class="indexpic" src="pics/vector.svg" alt="En fyrkantig bild med vita rutur på svart backgrund">
                         <div><p class="right">Eric J 2013-09-10</p><div class="clear"></div></div>
-                </div>
-                <div class="bloggPost">
+                </article>
+                <article>
                     <!-- Blogginläggsrubrik -->
                     <h3 class="bloggHeader">Hello World</h3>
                 <p>På denna blogg kommer jag att publicera material som jag skapar och även skriva om de laborationer jag gör.</p>
                 <p class="right">Eric J 2013-09-10</p><div class="clear"></div>
-                </div>
-            </div>
+                </article>
+            </main>
+            <aside>
+                <h1>Utfyllnad!</h1>
+                    <section>
+                    <h1>Lorem ipsum</h1>
+                    <P>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec eget imperdiet ante. Curabitur viverra risus id neque aliquet varius.
+                    Aliquam id dolor in orci molestie vulputate. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                    Proin mattis ultrices interdum. Fusce pharetra, arcu in sodales tincidunt, purus velit molestie enim, vitae placerat mi eros iaculis nunc.
+                    </P>
+                    </section><section>
+                    <h1>Lorem ipsum</h1>
+                    <P>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec eget imperdiet ante. Curabitur viverra risus id neque aliquet varius.
+                    Aliquam id dolor in orci molestie vulputate. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                    Proin mattis ultrices interdum. Fusce pharetra, arcu in sodales tincidunt, purus velit molestie enim, vitae placerat mi eros iaculis nunc.
+                    </P>
+                    </section>
+            </aside>
                 
-                <div id="footer">
+                <footer>
                 <p>Ansvarig för denna sidan är Eric Sjöström Jennerstrand.</p>
+                </footer>
                 </div>
-         </div>
         </body>
     </html>

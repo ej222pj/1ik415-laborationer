@@ -13,12 +13,12 @@ body
    margin: auto;
    background-color: #DBFCFF;
 }
-#header
+#header, header
 {
     width: 100%;
     background-image: url("pics/background.jpg");
 }
-#navigation
+#navigation, nav
 {
     max-width: 160px;
     padding-top: 3px;
@@ -27,7 +27,7 @@ body
     margin-left: auto;
     background-color: #66D8E2;
 }
-#content
+#content, main
 {
     min-width: 159px;
     width: 70%;
@@ -39,7 +39,7 @@ body
     border-style: solid;
     border-color: #000;
 }
-#footer
+#footer, footer
 {
     width: 100%;
     padding-top: 1px;
@@ -48,8 +48,20 @@ body
     clear: both;
     background-color: #D2ECE5;
 }
+aside
+{   
+    max-width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 5px;
+    background-color: #66D8E2;
+    border: 1px;
+    border-style: solid;
+    border-color: #000;
+}
 /* Divvarna till blogginläggen.  */
-.bloggPost
+.bloggPost, article
 {
     width: auto;
     height: auto;

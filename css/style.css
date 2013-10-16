@@ -2,6 +2,11 @@ body
 {    
     background-color: #F0F0F0;
 }
+article, aside, details, figcaption, figure, 
+footer,main, header, hgroup, menu, nav, section
+{ 
+ display: block; 
+}
 #container
 {
     
@@ -13,12 +18,12 @@ body
    margin: auto;
    background-color: #DBFCFF;
 }
-#header
+#header, header
 {
     width: 100%;
     background-image: url("pics/background.jpg");
 }
-#navigation
+#navigation, nav
 {
     max-width: 160px;
     float: left;
@@ -27,7 +32,7 @@ body
     margin-right: 5px;
     background-color: #66D8E2;
 }
-#content
+#content, main
 {
     max-width: 70%;
     float: left;
@@ -39,7 +44,19 @@ body
     border-style: solid;
     border-color: #000;
 }
-#footer
+aside
+{   
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: #66D8E2;
+    border: 1px;
+    border-style: solid;
+    border-color: #000;
+}
+#footer, footer
 {
     width: 100%;
     padding-top: 1px;
@@ -49,7 +66,7 @@ body
     background-color: #D2ECE5;
 }
 /* Divvarna till blogginläggen.  */
-.bloggPost
+.bloggPost, article
 {
     width: auto;
     height: auto;
