@@ -5,7 +5,7 @@ body
 #container
 {
     
-   width: 80%;
+   width: 100%;
    height: auto;
    border: 1px;
    border-style: solid;
@@ -21,18 +21,18 @@ body
 #navigation
 {
     max-width: 160px;
-    float: left;
+    padding-top: 3px;
     margin-top: 10px;
-    margin-left: 0;
-    margin-right: 5px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #66D8E2;
 }
 #content
 {
-    max-width: 70%;
-    float: left;
+    min-width: 159px;
+    width: 70%;
     margin-top: 10px;
-    margin-left: 0;
+    margin: auto;
     margin-bottom: 5px;
     background-color: #FFF;
     border: 1px;
@@ -154,8 +154,14 @@ p
     font-family: Arial,Helvetica,sans-serif;
 }
 /* Stylar Labb Tabel */
+.hiddenTable
+{
+    display: none; 
+}
+/*
 table 
 { 
+    
   width: 100%; 
   border-collapse: collapse; 
 }
@@ -173,6 +179,8 @@ td, th
   border: 1px solid #ccc; 
   text-align: left; 
 }
+*/
+
 .bigger
 {
     font-family: Arial,Helvetica,sans-serif;
@@ -225,11 +233,13 @@ a:visited
 /*Divvar för formuläret */
 form
 {
+    max-width: 100%;
     padding-top: 5px;
     background-color: #D2ECE5;
 }
 fieldset
 {
+    max-width: 100%;
     background-color: #DBFCFF;
     margin-bottom: 5px;
     margin-left: 5px;
@@ -238,16 +248,19 @@ fieldset
 }
 .formTextArea
 {
+    min-width: 1px;
     padding-left: 3px;
     float: left;
 }
 .formText
 {
+    min-width: 1px;
     float: left;
     margin-right: 58px;
 }
 .formTitleFields
 {
+    min-width: 1px;
     border: 3px;
     border-style: inset;
     border-color: #999999;
@@ -261,6 +274,7 @@ fieldset
 }
 .formTextFields
 {
+    width: 100%;
     background-color: #4D4D4D;
     color: #FFF;
 }
@@ -285,11 +299,10 @@ textarea
     border: 3px;
     border-style: inset;
     border-color: #999999;
-    max-width: 650px;
-    max-height: 300px;
 }
 .formTitleArea
 {
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 3px;
@@ -306,10 +319,12 @@ textarea
 /*
 .buttonPlace
 {
-    margin-left: 160px;
+    float: left;
 }
+*7
+/*
+Hittade en "buttongenrator" som jag tog en knapp ifrån
 */
-/*Hittade en "buttongenrator" som jag tog en knapp ifrån */
 .formButton 
 {
 	box-shadow:inset 0 1px 0 0 #bbdaf7;
@@ -320,7 +335,6 @@ textarea
 	border-bottom-left-radius:0;
 	text-indent:0;
 	border:1px solid #84bbf3;
-	display:inline-block;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:15px;
@@ -332,6 +346,7 @@ textarea
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0 #528ecc;
+	float: left;
 }
 .formButton:hover 
 {
@@ -342,6 +357,12 @@ textarea
 	position:relative;
 	top:1px;
 }
+ input, textarea, select {
+   font-size: 15px;
+   line-height: 1.2em;
+   width: 80%;
+ }
+
 
 
 

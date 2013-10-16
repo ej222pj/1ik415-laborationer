@@ -6,12 +6,25 @@ img, video, h1, h2, #header, #navigation, #footer, .bloggHeader:before
 {
     width: 100%;
 }
+#content>ul
+{
+    display: none;
+}
+.center
+{
+    margin: 0;
+    text-align: left;
+}
+fieldset, textarea, input.formTitleFields
+{
+    border: 1px solid black;
+}
 a:link, a:visited
 {
     font-size: 20px;
-    color: #781351;
+    color: #000;
 }
-a.Bigger:after
+.Bigger:after
 { 
     content:" [" attr(href) "] "; 
 }
@@ -19,25 +32,7 @@ p, table ol, ul, li
 {
     font-size: 20px;
 }
-.formButton
-{
-    box-shadow:inset 0 0 0 0 #FFF;
-	background-color:#FFF;
-	border-top-left-radius:0;
-	border-top-right-radius:0;
-	border-bottom-right-radius:0;
-	border-bottom-left-radius:0;
-	text-indent:0;
-	display:inline-block;
-	color:#000;
-	font-family:Arial;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:none;
-	text-align:center;
-
-}
-fieldset, textarea, #container, #content, .bloggPost, .videoBloggPost, .bloggHeader, .formTitleFields, .formScrollFields, .formScrollField 
+#container, #content, .bloggPost, .videoBloggPost, .bloggHeader, .formTitleFields, .formScrollFields, .formScrollField 
 {
     border: none;
     border-style: none;
