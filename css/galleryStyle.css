@@ -1,0 +1,96 @@
+header
+{
+    text-align: center;    
+}
+#container
+{
+    margin: auto;
+    width: 890px;
+    padding-top: 100px;
+}
+.gallery a
+{
+    margin: 5px;
+    background: #fff;
+    display: inline;
+    float: left;
+    padding: 10px 10px 15px;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    -webkit-transition: -webkit-transform .15s linear;
+    -webkit-box-shadow: 0 30px 33px rgba(0,0,0,.50);
+    -moz-box-shadow: 0 30px 33px rgba(0,0,0,.50); 
+}
+.clear
+{
+    clear: both;
+}
+.gallery img 
+{
+    display: block;
+    width: 190px;
+    margin-bottom: 25px;
+}
+.gallery a:after 
+{
+    content: attr(title);
+}
+.gallery a:nth-child(1)
+{
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+}
+ .gallery a:nth-child(2n)
+{
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    margin-top: 50px;
+}
+.gallery a:nth-child(8)
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  margin-top: 120px;
+}
+.gallery a:nth-child(7)
+{
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+}
+.gallery a:nth-child(9)
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  margin-left: 100px;
+  margin-top: -150px;
+}
+.gallery a:nth-child(10)
+{
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  margin-left: 100px;
+  margin-top: -200px;
+}
+ .gallery a:hover
+{
+    -webkit-box-shadow: 0 25px 28px rgba(0,0,0,.20);
+    -moz-box-shadow: 0 25px 28px rgba(0,0,0,.20);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    position: relative;
+    z-index: 1;
+}
+.gallery a:focus
+{
+    -webkit-box-shadow: 0 20px 23px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 20px 23px rgba(0,0,0,.15);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    position: relative;
+    z-index: 1;
+}
+
+
