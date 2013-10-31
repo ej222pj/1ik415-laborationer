@@ -20,7 +20,7 @@ body
 }
 #navigation, nav
 {
-    max-width: 160px;
+    width: 100%;
     padding-top: 3px;
     margin-top: 10px;
     margin-right: auto;
@@ -29,8 +29,7 @@ body
 }
 #content, main
 {
-    min-width: 159px;
-    width: 70%;
+    width: 100%;
     margin-top: 10px;
     margin: auto;
     margin-bottom: 5px;
@@ -50,7 +49,7 @@ body
 }
 aside
 {   
-    max-width: 100%;
+    width: 100%;
     float: left;
     margin-top: 10px;
     margin-left: 0;
