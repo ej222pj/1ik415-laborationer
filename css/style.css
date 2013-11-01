@@ -18,12 +18,12 @@ footer,main, header, hgroup, menu, nav, section
    margin: auto;
    background-color: #DBFCFF;
 }
-#header, header
+header
 {
     width: 100%;
     background-image: url("pics/background.jpg");
 }
-#navigation, nav
+nav
 {
     max-width: 160px;
     float: left;
@@ -32,9 +32,9 @@ footer,main, header, hgroup, menu, nav, section
     margin-right: 5px;
     background-color: #66D8E2;
 }
-#content, main
+main
 {
-    max-width: 70%;
+    width: 70%;
     float: left;
     margin-top: 10px;
     margin-left: 0;
@@ -46,15 +46,20 @@ footer,main, header, hgroup, menu, nav, section
 }
 aside
 {   
-    width: 200px;
+    width: 16%;
     float: left;
     margin-top: 10px;
-    margin-left: 10px;
     margin-bottom: 5px;
     background-color: #66D8E2;
     border: 1px;
     border-style: solid;
     border-color: #000;
+}
+@media screen and (max-width: 1510px){
+    aside
+    {
+        width: 100%;
+    }
 }
 #footer, footer
 {
@@ -257,6 +262,7 @@ fieldset
 {
     padding-left: 3px;
     float: left;
+    clear: both;
 }
 .formText
 {
@@ -270,6 +276,7 @@ fieldset
     border-color: #999999;
     background-color: #4D4D4D;
     color: #FFF;
+    
 }
 .formScrollFields:focus, .formTitleFields:focus, .formTextFields:focus, .formScrollField:focus
 {
@@ -310,6 +317,7 @@ textarea
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 3px;
+    clear: both;
 }
 .formTitle
 {
@@ -359,6 +367,3 @@ textarea
 	position:relative;
 	top:1px;
 }
-
-
-

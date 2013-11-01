@@ -1,6 +1,12 @@
-body
+html, body
 {    
+    width: 100%;
     background-color: #F0F0F0;
+}
+article, aside, details, figcaption, figure, 
+footer,main, header, hgroup, menu, nav, section
+{ 
+ display: block; 
 }
 #container
 {
@@ -13,51 +19,44 @@ body
    margin: auto;
    background-color: #DBFCFF;
 }
-#header, header
+header
 {
     width: 100%;
     background-image: url("pics/background.jpg");
 }
-#navigation, nav
+nav
 {
     width: 100%;
-    padding-top: 3px;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
+    float: left;
     background-color: #66D8E2;
 }
-#content, main
+main
 {
     width: 100%;
-    margin-top: 10px;
-    margin: auto;
+    float: left;
     margin-bottom: 5px;
     background-color: #FFF;
-    border: 1px;
-    border-style: solid;
-    border-color: #000;
-}
-#footer, footer
-{
-    width: 100%;
-    padding-top: 1px;
-    height: 50px;
-    text-align: center;
-    clear: both;
-    background-color: #D2ECE5;
 }
 aside
 {   
     width: 100%;
+     text-align: justify;
     float: left;
-    margin-top: 10px;
-    margin-left: 0;
-    margin-bottom: 5px;
     background-color: #66D8E2;
-    border: 1px;
-    border-style: solid;
-    border-color: #000;
+}
+input, textarea, select 
+{
+   font-size: 15px;
+   line-height: 1.2em;
+   width: 80%;
+}
+footer
+{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    clear: both;
+    background-color: #D2ECE5;
 }
 /* Divvarna till blogginläggen.  */
 .bloggPost, article
@@ -165,14 +164,8 @@ p
     font-family: Arial,Helvetica,sans-serif;
 }
 /* Stylar Labb Tabel */
-.hiddenTable
-{
-    display: none; 
-}
-/*
 table 
 { 
-    
   width: 100%; 
   border-collapse: collapse; 
 }
@@ -190,8 +183,6 @@ td, th
   border: 1px solid #ccc; 
   text-align: left; 
 }
-*/
-
 .bigger
 {
     font-family: Arial,Helvetica,sans-serif;
@@ -244,13 +235,11 @@ a:visited
 /*Divvar för formuläret */
 form
 {
-    max-width: 100%;
     padding-top: 5px;
     background-color: #D2ECE5;
 }
 fieldset
 {
-    max-width: 100%;
     background-color: #DBFCFF;
     margin-bottom: 5px;
     margin-left: 5px;
@@ -259,19 +248,16 @@ fieldset
 }
 .formTextArea
 {
-    min-width: 1px;
     padding-left: 3px;
     float: left;
 }
 .formText
 {
-    min-width: 1px;
     float: left;
     margin-right: 58px;
 }
 .formTitleFields
 {
-    min-width: 1px;
     border: 3px;
     border-style: inset;
     border-color: #999999;
@@ -285,7 +271,6 @@ fieldset
 }
 .formTextFields
 {
-    width: 100%;
     background-color: #4D4D4D;
     color: #FFF;
 }
@@ -310,10 +295,11 @@ textarea
     border: 3px;
     border-style: inset;
     border-color: #999999;
+    max-width: 650px;
+    max-height: 300px;
 }
 .formTitleArea
 {
-    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 3px;
@@ -330,12 +316,10 @@ textarea
 /*
 .buttonPlace
 {
-    float: left;
+    margin-left: 160px;
 }
-*7
-/*
-Hittade en "buttongenrator" som jag tog en knapp ifrån
 */
+/*Hittade en "buttongenrator" som jag tog en knapp ifrån */
 .formButton 
 {
 	box-shadow:inset 0 1px 0 0 #bbdaf7;
@@ -346,6 +330,7 @@ Hittade en "buttongenrator" som jag tog en knapp ifrån
 	border-bottom-left-radius:0;
 	text-indent:0;
 	border:1px solid #84bbf3;
+	display:inline-block;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:15px;
@@ -357,7 +342,6 @@ Hittade en "buttongenrator" som jag tog en knapp ifrån
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0 #528ecc;
-	float: left;
 }
 .formButton:hover 
 {
@@ -368,12 +352,3 @@ Hittade en "buttongenrator" som jag tog en knapp ifrån
 	position:relative;
 	top:1px;
 }
- input, textarea, select {
-   font-size: 15px;
-   line-height: 1.2em;
-   width: 80%;
- }
-
-
-
-
